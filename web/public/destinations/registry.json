@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "destinations": [
+    {
+      "code": "danang",
+      "name": "Đà Nẵng",
+      "status": "open",
+      "lat": 16.061,
+      "lon": 108.227,
+      "utcOffsetMin": 420,
+      "airport": "DAD",
+      "tagline": "Sông Hàn về đêm, Cầu Rồng phun lửa, Cầu Tình Yêu",
+      "label": "right"
+    },
+    {
+      "code": "hoian",
+      "name": "Hội An",
+      "status": "soon",
+      "lat": 15.8801,
+      "lon": 108.338,
+      "utcOffsetMin": 420,
+      "airport": "DAD",
+      "tagline": "Phố đèn lồng và đêm rằm thả hoa đăng",
+      "label": "bottom"
+    },
+    {
+      "code": "hue",
+      "name": "Huế",
+      "status": "soon",
+      "lat": 16.4637,
+      "lon": 107.5909,
+      "utcOffsetMin": 420,
+      "airport": "HUI",
+      "tagline": "Đại Nội, sông Hương và nhã nhạc cung đình",
+      "label": "left"
+    },
+    {
+      "code": "hanoi",
+      "name": "Hà Nội",
+      "status": "soon",
+      "lat": 21.0285,
+      "lon": 105.8542,
+      "utcOffsetMin": 420,
+      "airport": "HAN",
+      "tagline": "Hồ Gươm, phố cổ và một ly cà phê trứng",
+      "label": "left"
+    },
+    {
+      "code": "halong",
+      "name": "Hạ Long",
+      "status": "soon",
+      "lat": 20.9101,
+      "lon": 107.1839,
+      "utcOffsetMin": 420,
+      "airport": "VDO",
+      "tagline": "Du thuyền giữa hàng nghìn đảo đá",
+      "label": "right"
+    },
+    {
+      "code": "sapa",
+      "name": "Sa Pa",
+      "status": "soon",
+      "lat": 22.3364,
+      "lon": 103.8438,
+      "utcOffsetMin": 420,
+      "airport": "HAN",
+      "tagline": "Biển mây, ruộng bậc thang và cáp treo Fansipan",
+      "label": "right"
+    },
+    {
+      "code": "ninhbinh",
+      "name": "Ninh Bình",
+      "status": "soon",
+      "lat": 20.2506,
+      "lon": 105.9745,
+      "utcOffsetMin": 420,
+      "airport": "HAN",
+      "tagline": "Đò Tràng An len qua hang đá",
+      "label": "left"
+    },
+    {
+      "code": "nhatrang",
+      "name": "Nha Trang",
+      "status": "soon",
+      "lat": 12.2388,
+      "lon": 109.1967,
+      "utcOffsetMin": 420,
+      "airport": "CXR",
+      "tagline": "Vịnh biển xanh và cáp treo vượt biển",
+      "label": "right"
+    },
+    {
+      "code": "dalat",
+      "name": "Đà Lạt",
+      "status": "soon",
+      "lat": 11.9404,
+      "lon": 108.4583,
+      "utcOffsetMin": 420,
+      "airport": "DLI",
+      "tagline": "Đồi thông, sương sớm và chợ đêm se lạnh",
+      "label": "left"
+    },
+    {
+      "code": "hcm",
+      "name": "TP. Hồ Chí Minh",
+      "status": "soon",
+      "lat": 10.7769,
+      "lon": 106.7009,
+      "utcOffsetMin": 420,
+      "airport": "SGN",
+      "tagline": "Bến Bạch Đằng lên đèn và phố đi bộ Nguyễn Huệ",
+      "label": "right"
+    },
+    {
+      "code": "phuquoc",
+      "name": "Phú Quốc",
+      "status": "soon",
+      "lat": 10.2899,
+      "lon": 103.984,
+      "utcOffsetMin": 420,
+      "airport": "PQC",
+      "tagline": "Hoàng hôn Sunset Town và làng chài Hàm Ninh",
+      "label": "left"
+    }
+  ]
+}

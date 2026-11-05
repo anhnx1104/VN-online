@@ -1,0 +1,372 @@
+{
+  "id": "z02",
+  "name": {
+    "vi": "Biển Mỹ Khê",
+    "en": "My Khe Beach"
+  },
+  "social": {
+    "shardCapacity": 80,
+    "comfortable": 40,
+    "npcFillTo": 16
+  },
+  "spawn": {
+    "x": -36,
+    "z": 20,
+    "yaw": 1.5708
+  },
+  "ground": {
+    "bankHeight": 2.4,
+    "color": "#6f7a68",
+    "pavement": "#b7ad98"
+  },
+  "walk": [
+    {
+      "x0": -46,
+      "x1": -30,
+      "z0": -1400,
+      "z1": 1400,
+      "h0": 2.4,
+      "h1": 2.4
+    },
+    {
+      "x0": -30,
+      "x1": 62,
+      "z0": -1400,
+      "z1": 1400,
+      "h0": 2.2,
+      "h1": -0.166,
+      "axis": "x"
+    }
+  ],
+  "ride": [
+    {
+      "x0": -62,
+      "x1": -46,
+      "z0": -1400,
+      "z1": 1400,
+      "h0": 2.4,
+      "h1": 2.4
+    }
+  ],
+  "obstacles": [
+    {
+      "x": 28,
+      "z": 0,
+      "r": 1.6
+    }
+  ],
+  "transport": {
+    "taxi": {
+      "x": -40,
+      "z": -40,
+      "yaw": 1.5708,
+      "carX": -50
+    },
+    "bikes": {
+      "x": -40,
+      "z": 56,
+      "yaw": 1.5708
+    }
+  },
+  "kits": [
+    {
+      "kit": "beach",
+      "params": {
+        "cityX0": -700,
+        "promX0": -46,
+        "promX1": -30,
+        "promY": 2.4,
+        "sandTop": 2.2,
+        "sandBottom": -0.5,
+        "sandX1": 75,
+        "zLen": 3200
+      }
+    },
+    {
+      "kit": "ocean",
+      "params": {
+        "shore": 55.6,
+        "shallow": "#3fb7b0",
+        "deep": "#14506e",
+        "zLen": 3200
+      }
+    },
+    {
+      "kit": "road",
+      "params": {
+        "x": -54,
+        "width": 16,
+        "y": 2.4,
+        "zLen": 3000,
+        "cars": 60,
+        "crossings": [
+          -40,
+          56,
+          -200,
+          200
+        ],
+        "bikes": 110
+      }
+    },
+    {
+      "kit": "beach-props",
+      "params": {
+        "sandTop": 2.2,
+        "sandBottom": -0.5,
+        "sandX0": -30,
+        "sandX1": 75,
+        "umbrellas": [
+          {
+            "x0": -22,
+            "x1": 10,
+            "dx": 10,
+            "z0": -1340,
+            "z1": 1340,
+            "spacing": 16
+          }
+        ],
+        "tower": {
+          "x": 28,
+          "z": 0
+        },
+        "boats": {
+          "x": 44,
+          "z": -150,
+          "count": 9
+        }
+      }
+    },
+    {
+      "kit": "promenade",
+      "params": {
+        "rows": [
+          {
+            "kind": "lamp",
+            "x": -31,
+            "z0": -1390,
+            "z1": 1390,
+            "spacing": 16,
+            "poolDx": -4
+          },
+          {
+            "kind": "palm",
+            "x": -42,
+            "z0": -1390,
+            "z1": 1390,
+            "spacing": 14
+          },
+          {
+            "kind": "palm",
+            "x": -34,
+            "z0": -1390,
+            "z1": 1390,
+            "spacing": 22
+          },
+          {
+            "kind": "bench",
+            "x": -32.5,
+            "z0": -1390,
+            "z1": 1390,
+            "spacing": 30,
+            "yaw": 1.5708
+          }
+        ],
+        "clear": [
+          [
+            -50,
+            -28,
+            -48,
+            -32
+          ],
+          [
+            -50,
+            -28,
+            48,
+            64
+          ]
+        ]
+      }
+    },
+    {
+      "kit": "cityscape",
+      "params": {
+        "seed": 11,
+        "blocks": [
+          {
+            "x0": -380,
+            "x1": -78,
+            "z0": -1600,
+            "z1": 1600,
+            "hMin": 10,
+            "hMax": 95,
+            "density": 0.55,
+            "tallBias": -90
+          }
+        ]
+      }
+    },
+    {
+      "kit": "skyline-mountains",
+      "params": {
+        "peaks": [
+          {
+            "x": 200,
+            "z": -2500,
+            "h": 620,
+            "r": 1500
+          },
+          {
+            "x": 1150,
+            "z": -2250,
+            "h": 420,
+            "r": 900
+          },
+          {
+            "x": -600,
+            "z": -2100,
+            "h": 260,
+            "r": 650
+          },
+          {
+            "x": -420,
+            "z": 5200,
+            "h": 110,
+            "r": 150
+          },
+          {
+            "x": -160,
+            "z": 5400,
+            "h": 90,
+            "r": 120
+          },
+          {
+            "x": -640,
+            "z": 5600,
+            "h": 75,
+            "r": 110
+          }
+        ]
+      }
+    },
+    {
+      "kit": "transport",
+      "params": {}
+    }
+  ],
+  "spectacles": [],
+  "stamps": [
+    {
+      "id": "mk-arrive",
+      "name": {
+        "vi": "Đặt chân tới biển Mỹ Khê",
+        "en": "Arrived at My Khe"
+      },
+      "kind": "arrive",
+      "icon": "wave"
+    },
+    {
+      "id": "mk-shore",
+      "name": {
+        "vi": "Chạm sóng",
+        "en": "Touch the waves"
+      },
+      "kind": "place",
+      "x": 58,
+      "z": 60,
+      "r": 12,
+      "icon": "wave"
+    },
+    {
+      "id": "mk-tower",
+      "name": {
+        "vi": "Chòi cứu hộ",
+        "en": "Lifeguard tower"
+      },
+      "kind": "place",
+      "x": 28,
+      "z": 0,
+      "r": 8,
+      "icon": "tower"
+    },
+    {
+      "id": "mk-boats",
+      "name": {
+        "vi": "Thúng chai",
+        "en": "Basket boats"
+      },
+      "kind": "place",
+      "x": 44,
+      "z": -150,
+      "r": 10,
+      "icon": "boat"
+    },
+    {
+      "id": "mk-sunrise",
+      "name": {
+        "vi": "Người đón bình minh",
+        "en": "Sunrise watcher"
+      },
+      "kind": "sun",
+      "period": "morning",
+      "altMin": -3,
+      "altMax": 8,
+      "rare": true,
+      "icon": "sunrise"
+    },
+    {
+      "id": "mk-rain",
+      "name": {
+        "vi": "Mưa trên biển Mỹ Khê",
+        "en": "Rain at My Khe"
+      },
+      "kind": "weather",
+      "weather": "rain",
+      "rare": true,
+      "icon": "rain"
+    }
+  ],
+  "stories": [
+    {
+      "id": "mykhe",
+      "x": -30,
+      "z": 20,
+      "r": 14,
+      "title": {
+        "vi": "Biển Mỹ Khê",
+        "en": "My Khe Beach"
+      },
+      "text": {
+        "vi": "Mỹ Khê là bãi biển dài nhiều cây số chạy dọc đường Võ Nguyên Giáp, cát trắng mịn, sóng êm phần lớn thời gian trong năm. Năm 2005, tạp chí Forbes của Mỹ đưa Mỹ Khê vào danh sách những bãi biển quyến rũ nhất hành tinh. Bờ biển quay về hướng đông, nên sáng sớm ở đây mặt trời mọc thẳng từ mặt biển.",
+        "en": "My Khe stretches for kilometres along Vo Nguyen Giap street. It faces east, so the sun rises straight out of the sea."
+      }
+    },
+    {
+      "id": "thungchai",
+      "x": 44,
+      "z": -150,
+      "r": 12,
+      "title": {
+        "vi": "Thúng chai",
+        "en": "Basket boats"
+      },
+      "text": {
+        "vi": "Thúng chai là chiếc thuyền tròn đan bằng tre, trét dầu rái cho kín nước. Ngư dân dùng thúng để chèo ra thuyền lớn và chở cá vào bờ. Người chèo lắc mái chèo sang hai bên, thúng vừa xoay vừa tiến lên.",
+        "en": "Round bamboo basket boats, sealed with resin, used by fishermen to reach their larger boats."
+      }
+    },
+    {
+      "id": "sontra",
+      "x": 40,
+      "z": -300,
+      "r": 22,
+      "title": {
+        "vi": "Bán đảo Sơn Trà",
+        "en": "Son Tra Peninsula"
+      },
+      "text": {
+        "vi": "Phía bắc là bán đảo Sơn Trà. Trên sườn núi có chùa Linh Ứng Bãi Bụt với tượng Quan Âm cao khoảng 67 mét nhìn ra biển. Khu này sắp mở, bạn có thể bình chọn trong mục Đi đâu.",
+        "en": "To the north lies Son Tra Peninsula with Linh Ung Pagoda and its tall Lady Buddha statue."
+      }
+    }
+  ]
+}

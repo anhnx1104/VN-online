@@ -1,0 +1,1131 @@
+{
+  "id": "z01",
+  "name": {
+    "vi": "Sông Hàn & Cầu Rồng",
+    "en": "Han River & Dragon Bridge"
+  },
+  "social": {
+    "shardCapacity": 80,
+    "comfortable": 40,
+    "npcFillTo": 14
+  },
+  "spawn": {
+    "x": 96,
+    "z": 30,
+    "yaw": -2.1
+  },
+  "ground": {
+    "bankHeight": 2,
+    "color": "#6f7a68",
+    "pavement": "#9b9a90"
+  },
+  "walk": [
+    {
+      "x0": -58,
+      "x1": 58,
+      "z0": -6,
+      "z1": 6,
+      "h0": 9,
+      "h1": 9
+    },
+    {
+      "x0": 58,
+      "x1": 112,
+      "z0": -6,
+      "z1": 6,
+      "h0": 9,
+      "h1": 2,
+      "axis": "x"
+    },
+    {
+      "x0": -112,
+      "x1": -58,
+      "z0": -6,
+      "z1": 6,
+      "h0": 2,
+      "h1": 9,
+      "axis": "x"
+    },
+    {
+      "x0": 58,
+      "x1": 112,
+      "z0": -760,
+      "z1": -7.5,
+      "h0": 2,
+      "h1": 2
+    },
+    {
+      "x0": 58,
+      "x1": 112,
+      "z0": 7.5,
+      "z1": 1160,
+      "h0": 2,
+      "h1": 2
+    },
+    {
+      "x0": 112,
+      "x1": 140,
+      "z0": -760,
+      "z1": 1160,
+      "h0": 2,
+      "h1": 2
+    },
+    {
+      "x0": -112,
+      "x1": -58,
+      "z0": -760,
+      "z1": -7.5,
+      "h0": 2,
+      "h1": 2
+    },
+    {
+      "x0": -112,
+      "x1": -58,
+      "z0": 7.5,
+      "z1": 1160,
+      "h0": 2,
+      "h1": 2
+    },
+    {
+      "x0": -140,
+      "x1": -112,
+      "z0": -760,
+      "z1": 1160,
+      "h0": 2,
+      "h1": 2
+    },
+    {
+      "x0": 30,
+      "x1": 58,
+      "z0": -75,
+      "z1": -67,
+      "h0": 2.2,
+      "h1": 2.2
+    },
+    {
+      "x0": 14,
+      "x1": 31,
+      "z0": -82,
+      "z1": -60,
+      "h0": 2.2,
+      "h1": 2.2
+    }
+  ],
+  "obstacles": [
+    {
+      "x": 21,
+      "z": -71,
+      "r": 3.6
+    },
+    {
+      "x": -38,
+      "z": 0,
+      "r": 1.0
+    },
+    {
+      "x": -10,
+      "z": 0,
+      "r": 1.0
+    },
+    {
+      "x": 18,
+      "z": 0,
+      "r": 1.0
+    },
+    {
+      "x": 44,
+      "z": 0,
+      "r": 1.0
+    }
+  ],
+  "kits": [
+    {
+      "kit": "river",
+      "params": {
+        "x0": -58,
+        "x1": 58,
+        "length": 2600,
+        "color": "#1d4f63",
+        "deep": "#0b2233",
+        "flow": [
+          0,
+          -0.35
+        ]
+      }
+    },
+    {
+      "kit": "banks",
+      "params": {
+        "height": 2,
+        "east": [
+          58,
+          900
+        ],
+        "west": [
+          -900,
+          -58
+        ],
+        "zLen": 2600,
+        "promenadeWidth": 14,
+        "lawns": [
+          [
+            76,
+            124,
+            -723,
+            -673
+          ],
+          [
+            76,
+            124,
+            -661,
+            -611
+          ],
+          [
+            76,
+            124,
+            -599,
+            -549
+          ],
+          [
+            76,
+            124,
+            -537,
+            -487
+          ],
+          [
+            76,
+            124,
+            -475,
+            -425
+          ],
+          [
+            76,
+            124,
+            -413,
+            -363
+          ],
+          [
+            76,
+            124,
+            -351,
+            -301
+          ],
+          [
+            76,
+            124,
+            -289,
+            -239
+          ],
+          [
+            76,
+            124,
+            -227,
+            -177
+          ],
+          [
+            76,
+            124,
+            -165,
+            -112
+          ],
+          [
+            76,
+            124,
+            -100,
+            -50
+          ],
+          [
+            76,
+            124,
+            -38,
+            -12
+          ],
+          [
+            76,
+            124,
+            12,
+            38
+          ],
+          [
+            76,
+            124,
+            50,
+            100
+          ],
+          [
+            76,
+            124,
+            112,
+            165
+          ],
+          [
+            76,
+            124,
+            177,
+            227
+          ],
+          [
+            76,
+            124,
+            239,
+            289
+          ],
+          [
+            76,
+            124,
+            301,
+            351
+          ],
+          [
+            76,
+            124,
+            363,
+            413
+          ],
+          [
+            76,
+            124,
+            425,
+            475
+          ],
+          [
+            76,
+            124,
+            487,
+            537
+          ],
+          [
+            76,
+            124,
+            549,
+            599
+          ],
+          [
+            76,
+            124,
+            611,
+            661
+          ],
+          [
+            76,
+            124,
+            673,
+            723
+          ],
+          [
+            76,
+            124,
+            735,
+            785
+          ],
+          [
+            76,
+            124,
+            797,
+            847
+          ],
+          [
+            76,
+            124,
+            859,
+            909
+          ],
+          [
+            76,
+            124,
+            921,
+            971
+          ],
+          [
+            76,
+            124,
+            983,
+            1033
+          ],
+          [
+            76,
+            124,
+            1045,
+            1095
+          ],
+          [
+            -124,
+            -76,
+            -723,
+            -673
+          ],
+          [
+            -124,
+            -76,
+            -661,
+            -611
+          ],
+          [
+            -124,
+            -76,
+            -599,
+            -549
+          ],
+          [
+            -124,
+            -76,
+            -537,
+            -487
+          ],
+          [
+            -124,
+            -76,
+            -475,
+            -425
+          ],
+          [
+            -124,
+            -76,
+            -413,
+            -363
+          ],
+          [
+            -124,
+            -76,
+            -351,
+            -301
+          ],
+          [
+            -124,
+            -76,
+            -289,
+            -239
+          ],
+          [
+            -124,
+            -76,
+            -227,
+            -177
+          ],
+          [
+            -124,
+            -76,
+            -165,
+            -112
+          ],
+          [
+            -124,
+            -76,
+            -100,
+            -50
+          ],
+          [
+            -124,
+            -76,
+            -38,
+            -12
+          ],
+          [
+            -124,
+            -76,
+            12,
+            38
+          ],
+          [
+            -124,
+            -76,
+            50,
+            100
+          ],
+          [
+            -124,
+            -76,
+            112,
+            165
+          ],
+          [
+            -124,
+            -76,
+            177,
+            227
+          ],
+          [
+            -124,
+            -76,
+            239,
+            289
+          ],
+          [
+            -124,
+            -76,
+            301,
+            351
+          ],
+          [
+            -124,
+            -76,
+            363,
+            413
+          ],
+          [
+            -124,
+            -76,
+            425,
+            475
+          ],
+          [
+            -124,
+            -76,
+            487,
+            537
+          ],
+          [
+            -124,
+            -76,
+            549,
+            599
+          ],
+          [
+            -124,
+            -76,
+            611,
+            661
+          ],
+          [
+            -124,
+            -76,
+            673,
+            723
+          ],
+          [
+            -124,
+            -76,
+            735,
+            785
+          ],
+          [
+            -124,
+            -76,
+            797,
+            847
+          ],
+          [
+            -124,
+            -76,
+            859,
+            909
+          ],
+          [
+            -124,
+            -76,
+            921,
+            971
+          ],
+          [
+            -124,
+            -76,
+            983,
+            1033
+          ],
+          [
+            -124,
+            -76,
+            1045,
+            1095
+          ]
+        ]
+      }
+    },
+    {
+      "kit": "road",
+      "params": {
+        "x": 148,
+        "width": 12,
+        "zLen": 2520,
+        "crossings": [
+          -30,
+          30
+        ],
+        "cars": 56,
+        "bikes": 100
+      }
+    },
+    {
+      "kit": "road",
+      "params": {
+        "x": -148,
+        "width": 12,
+        "zLen": 2520,
+        "crossings": [
+          -30,
+          30
+        ],
+        "cars": 56,
+        "bikes": 100
+      }
+    },
+    {
+      "kit": "serpent-bridge",
+      "params": {
+        "id": "dragon",
+        "x0": -58,
+        "x1": 58,
+        "deckY": 9,
+        "deckWidth": 12,
+        "humps": [
+          [
+            -58,
+            -38
+          ],
+          [
+            -38,
+            -10
+          ],
+          [
+            -10,
+            18
+          ],
+          [
+            18,
+            44
+          ]
+        ],
+        "humpHeight": 12,
+        "bodyRadius": 1.15,
+        "headX": 56,
+        "color": "#e8b923",
+        "approach": 54,
+        "ledPalette": [
+          "#ffcf3a",
+          "#ff4d3a",
+          "#3aa0ff",
+          "#c04dff",
+          "#3aff9d"
+        ]
+      }
+    },
+    {
+      "kit": "lock-pier",
+      "params": {
+        "x0": 30,
+        "x1": 58,
+        "z0": -75,
+        "z1": -67,
+        "y": 2.2,
+        "platform": [
+          14,
+          31,
+          -82,
+          -60
+        ]
+      }
+    },
+    {
+      "kit": "statue-fountain",
+      "params": {
+        "x": 21,
+        "z": -71,
+        "y": 2.2,
+        "style": "carp-dragon",
+        "color": "#e9e6dc"
+      }
+    },
+    {
+      "kit": "promenade",
+      "params": {
+        "rows": [
+          {
+            "kind": "lamp",
+            "x": 60.5,
+            "z0": -752,
+            "z1": 1152,
+            "spacing": 14,
+            "skip": [
+              -10,
+              10
+            ],
+            "poolDx": 3
+          },
+          {
+            "kind": "lamp",
+            "x": -60.5,
+            "z0": -752,
+            "z1": 1152,
+            "spacing": 14,
+            "skip": [
+              -10,
+              10
+            ],
+            "poolDx": -3
+          },
+          {
+            "kind": "palm",
+            "x": 70,
+            "z0": -752,
+            "z1": 1152,
+            "spacing": 18,
+            "skip": [
+              -12,
+              12
+            ]
+          },
+          {
+            "kind": "palm",
+            "x": -70,
+            "z0": -752,
+            "z1": 1152,
+            "spacing": 18,
+            "skip": [
+              -12,
+              12
+            ]
+          },
+          {
+            "kind": "bench",
+            "x": 62.5,
+            "z0": -752,
+            "z1": 1152,
+            "spacing": 28,
+            "skip": [
+              -20,
+              20
+            ],
+            "yaw": -1.5708
+          },
+          {
+            "kind": "bench",
+            "x": -62.5,
+            "z0": -752,
+            "z1": 1152,
+            "spacing": 28,
+            "skip": [
+              -20,
+              20
+            ],
+            "yaw": 1.5708
+          },
+          {
+            "kind": "tree",
+            "x": 92,
+            "z0": -752,
+            "z1": 1152,
+            "spacing": 26,
+            "skip": [
+              -14,
+              14
+            ]
+          },
+          {
+            "kind": "tree",
+            "x": -92,
+            "z0": -752,
+            "z1": 1152,
+            "spacing": 26,
+            "skip": [
+              -14,
+              14
+            ]
+          },
+          {
+            "kind": "tree",
+            "x": 114,
+            "z0": -752,
+            "z1": 1152,
+            "spacing": 26,
+            "skip": [
+              -14,
+              14
+            ]
+          },
+          {
+            "kind": "tree",
+            "x": -114,
+            "z0": -752,
+            "z1": 1152,
+            "spacing": 26,
+            "skip": [
+              -14,
+              14
+            ]
+          }
+        ],
+        "clear": [
+          [
+            56,
+            75,
+            -80,
+            -62
+          ]
+        ]
+      }
+    },
+    {
+      "kit": "cityscape",
+      "params": {
+        "seed": 7,
+        "blocks": [
+          {
+            "x0": -340,
+            "x1": -162,
+            "z0": -1300,
+            "z1": 1300,
+            "hMin": 14,
+            "hMax": 110,
+            "density": 0.6,
+            "tallBias": -170
+          },
+          {
+            "x0": 162,
+            "x1": 340,
+            "z0": -1300,
+            "z1": 1300,
+            "hMin": 8,
+            "hMax": 70,
+            "density": 0.45,
+            "tallBias": 170
+          }
+        ],
+        "waterEdge": 58
+      }
+    },
+    {
+      "kit": "beam-bridge",
+      "params": {
+        "z": -650,
+        "x0": -58,
+        "x1": 58,
+        "deckY": 7,
+        "light": "#7fd0ff",
+        "pylons": 0
+      }
+    },
+    {
+      "kit": "beam-bridge",
+      "params": {
+        "z": 1050,
+        "x0": -58,
+        "x1": 58,
+        "deckY": 8,
+        "light": "#ffffff",
+        "pylons": 1,
+        "pylonHeight": 70
+      }
+    },
+    {
+      "kit": "skyline-mountains",
+      "params": {
+        "peaks": [
+          {
+            "x": 520,
+            "z": -1350,
+            "h": 330,
+            "r": 650
+          },
+          {
+            "x": 900,
+            "z": -1100,
+            "h": 220,
+            "r": 520
+          },
+          {
+            "x": -2400,
+            "z": 900,
+            "h": 650,
+            "r": 1300
+          },
+          {
+            "x": -2000,
+            "z": -600,
+            "h": 420,
+            "r": 900
+          },
+          {
+            "x": 1300,
+            "z": 1500,
+            "h": 90,
+            "r": 160
+          }
+        ]
+      }
+    },
+    {
+      "kit": "transport",
+      "params": {}
+    }
+  ],
+  "spectacles": [
+    {
+      "id": "dragon-fire",
+      "target": "dragon",
+      "name": {
+        "vi": "Cầu Rồng phun lửa, phun nước",
+        "en": "Dragon Bridge fire & water show"
+      },
+      "schedule": {
+        "weekdays": [
+          6,
+          0
+        ],
+        "time": "21:00",
+        "durationSec": 600
+      },
+      "sequence": [
+        {
+          "type": "fire",
+          "start": 20,
+          "end": 330,
+          "every": 34,
+          "burst": 6
+        },
+        {
+          "type": "water",
+          "start": 360,
+          "end": 590
+        }
+      ],
+      "countdownMin": 15,
+      "note": {
+        "vi": "Lịch thật: 21h tối thứ Bảy, Chủ nhật và dịp lễ. Cần xác minh định kỳ với đơn vị vận hành.",
+        "en": "Real schedule: 9pm Saturdays, Sundays and holidays."
+      },
+      "pitch": {
+        "live": {
+          "vi": "Cầu Rồng đang phun lửa. Bay tới xem cùng mọi người."
+        },
+        "today": {
+          "vi": "Tối nay {time}, Cầu Rồng phun lửa."
+        },
+        "later": {
+          "vi": "{day} này {time}, Cầu Rồng phun lửa."
+        }
+      }
+    }
+  ],
+  "stamps": [
+    {
+      "id": "arrive",
+      "name": {
+        "vi": "Đặt chân tới sông Hàn",
+        "en": "Arrived at the Han River"
+      },
+      "kind": "arrive",
+      "icon": "plane"
+    },
+    {
+      "id": "dragon-head",
+      "name": {
+        "vi": "Đầu Rồng",
+        "en": "Dragon's head"
+      },
+      "kind": "place",
+      "x": 50,
+      "z": 0,
+      "r": 9,
+      "icon": "dragon"
+    },
+    {
+      "id": "love-pier",
+      "name": {
+        "vi": "Cầu Tình Yêu",
+        "en": "Love Pier"
+      },
+      "kind": "place",
+      "x": 44,
+      "z": -71,
+      "r": 9,
+      "icon": "lock"
+    },
+    {
+      "id": "carp",
+      "name": {
+        "vi": "Cá chép hóa rồng",
+        "en": "Carp becoming dragon"
+      },
+      "kind": "place",
+      "x": 25,
+      "z": -71,
+      "r": 9,
+      "icon": "fish"
+    },
+    {
+      "id": "west-bank",
+      "name": {
+        "vi": "Bờ tây Bạch Đằng",
+        "en": "Bach Dang west bank"
+      },
+      "kind": "place",
+      "x": -75,
+      "z": 30,
+      "r": 16,
+      "icon": "city"
+    },
+    {
+      "id": "han-bridge",
+      "name": {
+        "vi": "Cầu Sông Hàn",
+        "en": "Han River Bridge"
+      },
+      "kind": "place",
+      "x": 70,
+      "z": -640,
+      "r": 20,
+      "icon": "bridge"
+    },
+    {
+      "id": "tranthily-bridge",
+      "name": {
+        "vi": "Cầu Trần Thị Lý",
+        "en": "Tran Thi Ly Bridge"
+      },
+      "kind": "place",
+      "x": 70,
+      "z": 1040,
+      "r": 20,
+      "icon": "bridge"
+    },
+    {
+      "id": "dragon-awake",
+      "name": {
+        "vi": "Rồng thức giấc",
+        "en": "The dragon wakes"
+      },
+      "kind": "spectacle",
+      "spectacle": "dragon-fire",
+      "rare": true,
+      "icon": "fire"
+    },
+    {
+      "id": "golden-hour",
+      "name": {
+        "vi": "Hoàng hôn sông Hàn",
+        "en": "Han River sunset"
+      },
+      "kind": "sun",
+      "altMin": -4,
+      "altMax": 6,
+      "rare": true,
+      "icon": "sunset",
+      "period": "evening"
+    },
+    {
+      "id": "rain",
+      "name": {
+        "vi": "Mưa trên sông Hàn",
+        "en": "Rain on the Han"
+      },
+      "kind": "weather",
+      "weather": "rain",
+      "rare": true,
+      "icon": "rain"
+    }
+  ],
+  "stories": [
+    {
+      "id": "dragon",
+      "x": 50,
+      "z": 0,
+      "r": 12,
+      "title": {
+        "vi": "Cầu Rồng",
+        "en": "Dragon Bridge"
+      },
+      "text": {
+        "vi": "Cầu Rồng khánh thành ngày 29 tháng 3 năm 2013, đúng dịp kỷ niệm ngày giải phóng Đà Nẵng. Cầu dài 666 mét, thân rồng bằng thép uốn lượn trên mặt cầu, đầu rồng hướng ra biển Đông. Về đêm, hàng nghìn bóng LED đổi màu liên tục. Tối thứ Bảy, Chủ nhật và dịp lễ, khoảng 9 giờ tối, rồng phun lửa rồi phun nước, người đứng gần đầu rồng sẽ bị hơi nước bay vào mặt.",
+        "en": "Opened on 29 March 2013, the 666-metre Dragon Bridge carries a steel dragon whose head faces the East Sea. At around 9pm on Saturdays, Sundays and holidays it breathes fire, then water."
+      }
+    },
+    {
+      "id": "love",
+      "x": 44,
+      "z": -71,
+      "r": 10,
+      "title": {
+        "vi": "Cầu Tình Yêu",
+        "en": "Love Pier"
+      },
+      "text": {
+        "vi": "Cầu tàu nhỏ bên bờ đông sông Hàn, lan can treo kín ổ khóa của các cặp đôi, buổi tối thắp đèn hình trái tim màu đỏ. Ở đây bạn có thể treo một ổ khóa kèm lời nhắn, người khác đi ngang qua sẽ đọc được.",
+        "en": "A small pier on the east bank where couples hang padlocks. Here you can hang a lock with a note that others can read."
+      }
+    },
+    {
+      "id": "carp",
+      "x": 25,
+      "z": -71,
+      "r": 10,
+      "title": {
+        "vi": "Cá chép hóa rồng",
+        "en": "Carp becoming dragon"
+      },
+      "text": {
+        "vi": "Tượng cá chép hóa rồng phun nước nhìn sang Cầu Rồng, gợi tích cá chép vượt Vũ Môn hóa rồng, ý chỉ sự vươn lên và thành đạt.",
+        "en": "The fountain statue recalls the legend of the carp that leaps the Dragon Gate and becomes a dragon."
+      }
+    },
+    {
+      "id": "hanbridge",
+      "x": 70,
+      "z": -630,
+      "r": 22,
+      "title": {
+        "vi": "Cầu Sông Hàn",
+        "en": "Han River Bridge"
+      },
+      "text": {
+        "vi": "Phía bắc là Cầu Sông Hàn, khánh thành năm 2000, cây cầu quay đầu tiên của Việt Nam. Sau nửa đêm, nhịp giữa cầu quay ngang để tàu thuyền đi qua.",
+        "en": "To the north is the Han River Bridge (2000), Vietnam's first swing bridge, which rotates after midnight to let ships pass."
+      }
+    },
+    {
+      "id": "tranthily",
+      "x": 70,
+      "z": 1030,
+      "r": 22,
+      "title": {
+        "vi": "Cầu Trần Thị Lý",
+        "en": "Tran Thi Ly Bridge"
+      },
+      "text": {
+        "vi": "Phía nam là cầu dây văng Trần Thị Lý, trụ tháp nghiêng như một cánh buồm trắng, buổi tối được chiếu sáng nổi bật trên nền trời.",
+        "en": "To the south, the cable-stayed Tran Thi Ly Bridge with its sail-shaped pylon."
+      }
+    }
+  ],
+  "lockSlots": {
+    "x0": 31,
+    "x1": 57,
+    "zRails": [
+      -74.6,
+      -67.4
+    ],
+    "y": 3.15,
+    "perMeter": 6,
+    "rows": 3
+  },
+  "ride": [
+    {
+      "x0": 140,
+      "x1": 154,
+      "z0": -1260,
+      "z1": 1260,
+      "h0": 2,
+      "h1": 2
+    },
+    {
+      "x0": -154,
+      "x1": -140,
+      "z0": -1260,
+      "z1": 1260,
+      "h0": 2,
+      "h1": 2
+    }
+  ],
+  "transport": {
+    "taxi": {
+      "x": 134,
+      "z": 40,
+      "yaw": -1.57,
+      "carX": 145
+    },
+    "bikes": {
+      "x": 134,
+      "z": 72,
+      "yaw": -1.57
+    }
+  }
+}

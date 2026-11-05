@@ -1,0 +1,87 @@
+{
+  "code": "danang",
+  "version": "0.1.0",
+  "name": {
+    "vi": "Đà Nẵng",
+    "en": "Da Nang"
+  },
+  "location": {
+    "lat": 16.061,
+    "lon": 108.227,
+    "utcOffsetMin": 420
+  },
+  "entryZone": "z01",
+  "zones": [
+    {
+      "id": "z01",
+      "name": {
+        "vi": "Sông Hàn & Cầu Rồng",
+        "en": "Han River & Dragon Bridge"
+      },
+      "file": "zones/z01.json",
+      "status": "open",
+      "lat": 16.0612,
+      "lon": 108.2274,
+      "scenery": "river"
+    },
+    {
+      "id": "z02",
+      "name": {
+        "vi": "Biển Mỹ Khê",
+        "en": "My Khe Beach"
+      },
+      "file": "zones/z02.json",
+      "status": "open",
+      "lat": 16.0614,
+      "lon": 108.2478,
+      "scenery": "coast"
+    },
+    {
+      "id": "z03",
+      "name": {
+        "vi": "Chợ Hàn",
+        "en": "Han Market"
+      },
+      "status": "soon",
+      "lat": 16.0681,
+      "lon": 108.224,
+      "scenery": "city"
+    },
+    {
+      "id": "z05",
+      "name": {
+        "vi": "Bán đảo Sơn Trà, chùa Linh Ứng",
+        "en": "Son Tra Peninsula"
+      },
+      "status": "soon",
+      "lat": 16.1003,
+      "lon": 108.2775,
+      "scenery": "mountain"
+    },
+    {
+      "id": "z06",
+      "name": {
+        "vi": "Ngũ Hành Sơn",
+        "en": "Marble Mountains"
+      },
+      "status": "soon",
+      "lat": 16.0036,
+      "lon": 108.264,
+      "scenery": "mountain"
+    },
+    {
+      "id": "z07",
+      "name": {
+        "vi": "Bà Nà",
+        "en": "Ba Na"
+      },
+      "status": "soon",
+      "lat": 15.9977,
+      "lon": 107.9886,
+      "scenery": "mountain"
+    }
+  ],
+  "legal": {
+    "note": "Bản v1 dựng thủ tục (procedural), chưa dùng dữ liệu quét. Xem legal/permissions.md trước khi thêm dữ liệu quét."
+  }
+}

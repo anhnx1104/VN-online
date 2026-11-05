@@ -1,0 +1,32 @@
+{
+  "name": "vietnam-online-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n server,web -c blue,green \"tsx watch src/server/index.ts\" \"vite\"",
+    "gen:map": "tsx scripts/gen-vn-map.ts",
+    "build": "tsc --noEmit && vite build",
+    "start": "NODE_ENV=production tsx src/server/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "d3-geo": "^3.1.2",
+    "suncalc": "^2.1.1",
+    "three": "^0.187.0",
+    "tsx": "^4.23.15",
+    "ws": "^8.22.1"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.1",
+    "@types/node": "^26.6.6",
+    "@types/three": "^0.187.0",
+    "@types/topojson-client": "^3.1.5",
+    "@types/ws": "^8.18.2",
+    "concurrently": "^10.0.6",
+    "topojson-client": "^3.1.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "world-atlas": "^2.0.2"
+  }
+}

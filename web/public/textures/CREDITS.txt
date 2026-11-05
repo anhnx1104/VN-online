@@ -1,0 +1,8 @@
+Ảnh vật liệu (PBR) trong thư mục này lấy từ Poly Haven (https://polyhaven.com), giấy phép CC0 — dùng tự do, không bắt buộc ghi công.
+Đã thu nhỏ/nén sang WebP và chỉnh độ sáng (granite) cho hợp gạch lát ven sông Hàn.
+
+granite_tile, granite_tile_03, leafy_grass — Charlotte Baglioni
+asphalt_02, sand_01 — Rob Tuytel
+damp_beach_sand, palm_tree_bark — Dimitrios Savva (+ Rico Cilliers)
+rock_wall_08 — Amal Kumar
+concrete_wall_008 — Poly Haven
